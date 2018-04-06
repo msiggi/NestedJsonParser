@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedJsonParser", "NestedJsonParser\NestedJsonParser.csproj", "{1A43B4D0-6596-49D7-9170-12E4877157F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedJsonParser.CoreConsoleTestApp", "NestedJsonParser.CoreConsoleTestApp\NestedJsonParser.CoreConsoleTestApp.csproj", "{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1A43B4D0-6596-49D7-9170-12E4877157F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A43B4D0-6596-49D7-9170-12E4877157F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A43B4D0-6596-49D7-9170-12E4877157F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

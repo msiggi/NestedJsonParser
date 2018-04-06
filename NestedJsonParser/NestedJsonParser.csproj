@@ -1,7 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Parses unkown JSON to a &lt;name, value, type, childs...&gt; - List. Implemented as Extension-Method.</Description>
+    <Copyright>Marcel Siegel</Copyright>
+    <PackageTags>JSON parse convert nested</PackageTags>
+    <Version>1.0.4</Version>
+    <Company>SiegelNet</Company>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
 
 </Project>
