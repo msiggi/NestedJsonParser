@@ -126,7 +126,7 @@ namespace NestedJsonParser
         /// </summary>
         /// <param name="json">json-object</param>
         /// <returns></returns>
-        public static List<RawValue> ToRawValueFlatList(this JObject jobject)
+        public static List<SimpleRawValue> ToRawValueFlatList(this JObject jobject)
         {
             var flat = jobject.Descendants().Where(j => j.Children().Count() == 0).Aggregate(
                     new Dictionary<string, JToken>(),
@@ -136,8 +136,8 @@ namespace NestedJsonParser
                         return props;
                     });
 
-            var ret = new List<RawValue>();
-            flat.ToList().ForEach(x => ret.Add(new RawValue(x.Key, x.Value)));
+            var ret = new List<SimpleRawValue>();
+            flat.ToList().ForEach(x => ret.Add(new SimpleRawValue( x.Value)));
 
             return ret;
         }
@@ -147,7 +147,7 @@ namespace NestedJsonParser
         /// </summary>
         /// <param name="json">json-parsed string</param>
         /// <returns></returns>
-        public static List<RawValue> ToRawValueFlatList(this string json)
+        public static List<SimpleRawValue> ToRawValueFlatList(this string json)
         {
             try
             {
