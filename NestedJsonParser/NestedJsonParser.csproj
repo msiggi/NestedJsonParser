@@ -3,12 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Parses unkown JSON to a &lt;name, value, type, childs...&gt; - List. Implemented as Extension-Method.</Description>
+    <Description>Parses unkown JSON to a &lt;name, value, type, childs...&gt; - List. Implemented as Extension-Method.
+</Description>
     <Copyright>Marcel Siegel</Copyright>
     <PackageTags>JSON parse convert nested</PackageTags>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Company>SiegelNet</Company>
     <PackageReleaseNotes>Simplified Flat-Objects</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/msiggi/NestedJsonParser</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

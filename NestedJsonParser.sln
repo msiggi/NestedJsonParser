@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedJsonParser", "NestedJsonParser\NestedJsonParser.csproj", "{1A43B4D0-6596-49D7-9170-12E4877157F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedJsonParser", "NestedJsonParser\NestedJsonParser.csproj", "{1A43B4D0-6596-49D7-9170-12E4877157F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedJsonParser.CoreConsoleTestApp", "NestedJsonParser.CoreConsoleTestApp\NestedJsonParser.CoreConsoleTestApp.csproj", "{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedJsonParser.CoreConsoleTestApp", "NestedJsonParser.CoreConsoleTestApp\NestedJsonParser.CoreConsoleTestApp.csproj", "{F4BC7028-40CF-49A0-845B-853A5B4DFFA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1E1D43F-90A7-4344-B2A2-A0ECF9714810}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
