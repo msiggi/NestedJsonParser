@@ -40,4 +40,4 @@ string json = @"{
 ```
 
 Inline-style: 
-![Screenshot](ReadmeImages/Screenshot.png "")
+![Screenshot](https://github.com/msiggi/NestedJsonParser/blob/master/ReadmeImages/screenshot.png "")
